@@ -1,0 +1,232 @@
+/* ===== Global Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== Body Styles ===== */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #74ABE2, #5563DE);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* ===== Container ===== */
+.signup-container {
+  background: #fff;
+  padding: 40px 50px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* ===== Heading ===== */
+.signup-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* ===== Input Fields ===== */
+.signup-container input[type="text"],
+.signup-container input[type="email"],
+.signup-container input[type="password"] {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: 0.3s ease;
+}
+
+.signup-container input:focus {
+  border-color: #5563DE;
+  box-shadow: 0 0 5px rgba(85, 99, 222, 0.4);
+  outline: none;
+}
+
+/* ===== Button ===== */
+.signup-container button {
+  width: 100%;
+  background: #5563DE;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signup-container button:hover {
+  background: #3948a3;
+}
+
+/* ===== Extra Text / Links ===== */
+.signup-container p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.signup-container a {
+  color: #5563DE;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.signup-container a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 480px) {
+  .signup-container {
+    padding: 30px 25px;
+  }
+
+  .signup-container h2 {
+    font-size: 22px;
+  }
+}
+/* ===== Global Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== Body Styles ===== */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== Login Container ===== */
+.login-container {
+  background: #fff;
+  padding: 40px 50px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 380px;
+}
+
+/* ===== Heading ===== */
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+  font-weight: 600;
+}
+
+/* ===== Input Fields ===== */
+.login-container input[type="text"],
+.login-container input[type="email"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: 0.3s ease;
+}
+
+.login-container input:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 5px rgba(102, 126, 234, 0.4);
+  outline: none;
+}
+
+/* ===== Button ===== */
+.login-container button {
+  width: 100%;
+  background: #667eea;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-container button:hover {
+  background: #5563de;
+}
+
+/* ===== Extra Text ===== */
+.login-container .options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.login-container .options label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #555;
+}
+
+.login-container a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Sign Up Link ===== */
+.login-container p {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 480px) {
+  .login-container {
+    padding: 30px 25px;
+  }
+
+  .login-container h2 {
+    font-size: 22px;
+  }
+}
+
+
+
+        /* 🔹 Background Logo */
+        .content::before {
+            content: "";
+            background: url('https://c9.shauryasoft.com/media/bny-logo_178.jpg') no-repeat center center;
+            background-size: 300px 300px;  /* adjust size as needed */
+            opacity: 0.15; /* makes logo soft behind text */
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1;
+        }
+
